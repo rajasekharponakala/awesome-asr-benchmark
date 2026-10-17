@@ -57,4 +57,10 @@ title: Glossary
 
 **WER (Word Error Rate).** Edit distance at word level; the default metric but inflated for agglutinative languages.
 
-**Whisper.** OpenAI's multilingual encoder–decoder ASR model (~99 languages).
+**Tokenisation.** Splitting text into subword/word units for model input.
+
+**Transliteration.** Converting text from one script to another (e.g. Devanagari to Latin).
+
+**Virama / halant.** Combining mark that suppresses the inherent vowel and forms conjuncts in Brahmic scripts.
+
+**ZWJ / ZWNJ.** Zero-width joiner/non-joiner controlling conjunct formation in Indic scripts.

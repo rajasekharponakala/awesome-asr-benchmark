@@ -8,6 +8,7 @@ title: Awesome ASR Benchmark
 A curated list of **Automatic Speech Recognition (ASR) benchmarks**, starting with **Indic (Indian-language) ASR**: evaluation sets, training corpora, leaderboards, models, metrics and recent trends.
 
 - [Literature review: Indic ASR models](literature-review.md)
+- [NLP and techno-linguistic considerations](techno-linguistic.md)
 - [Glossary](glossary.md)
 - [Repository README](../README.md)
 
