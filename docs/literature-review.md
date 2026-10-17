@@ -5,13 +5,25 @@ title: Literature Review — Indic ASR Models
 
 # Literature Review: Indic Speech Recognition Models
 
-**Scope.** Models (open and commercial) for automatic speech recognition (ASR) in Indian languages, 2021–2026. Companion to the [awesome list](../README.md). Focus on architectures, training data, multilingual coverage, evaluation, and open gaps.
+**Scope.** Models (open and commercial) for automatic speech recognition (ASR) in Indian languages, from the pre-deep-learning foundations (late 2010s) through 2026. Companion to the [awesome list](../README.md). Focus on architectures, training data, multilingual coverage, evaluation, and open gaps.
 
 **Method.** Sources: arXiv, OpenAlex, Semantic Scholar, and the project repositories linked below. Inclusion: a paper or official page documenting a model or a method specifically evaluated on Indic languages. Exclusion: datasets/benchmarks without a model (those live in the main list).
 
 ## 1. Background
 
-India has 22 scheduled languages, hundreds of dialects, heavy code-mixing with English, and speech captured over telephone, outdoors, and in noisy rooms. Models trained on English or clean read speech transfer poorly. The field has moved from monolingual CTC systems to large multilingual self-supervised encoders and, more recently, to speech LLMs and audio-native foundation models.
+India has 22 scheduled languages, hundreds of dialects, heavy code-mixing with English, and speech captured over telephone, outdoors, and in noisy rooms. Models trained on English or clean read speech transfer poorly. The field has moved from monolingual HMM-GMM/Kaldi pipelines and early DNN acoustic models, through multilingual self-supervised encoders, to speech LLMs and audio-native foundation models.
+
+## 0. Foundations (pre-2021)
+
+Before the current wave, Indian-language ASR was built on **HMM-GMM and hybrid DNN-HMM systems** (Kaldi/HTK recipes), with language-specific acoustic and language models, and small in-house corpora. Key milestones:
+
+- **Babel / GlobalPhone era (2010s).** Indian languages (e.g. Tamil, Hindi) appeared in multilingual data-collection programmes and the GlobalPhone corpus, giving the first cross-language acoustic models.
+- **IIIT-Hyderabad and IIT corpora.** Early read-speech datasets for Telugu, Hindi and other languages, plus festival/TTS-aligned resources, fed the first monolingual recognisers.
+- **NPTEL2020** — Indian-English lecture speech benchmark and dataset (2020). — [Repo](https://github.com/AI4Bharat/NPTEL2020-Indian-English-Speech-Dataset).
+- **MUCS 2021** — first large multilingual + code-switching challenge for low-resource Indian languages (6 languages + 2 code-switched pairs), marking the transition to end-to-end models. — [arXiv:2104.00235](https://arxiv.org/abs/2104.00235).
+- **Vakyansh / CLSRIL-23** and **IndicWav2Vec** (2021) brought self-supervised pretraining to Indic ASR, setting the template (raw-speech pretraining → fine-tuning) still used today. — [arXiv:2107.07402](https://arxiv.org/abs/2107.07402) · [arXiv:2111.03945](https://arxiv.org/abs/2111.03945).
+
+For a broader survey of this transition, see *Decoding the Diversity: A Review of the Indic AI Research Landscape* — [arXiv:2406.09559](https://arxiv.org/abs/2406.09559).
 
 ## 2. Model families
 
@@ -137,7 +149,8 @@ Voice of India (telephone, 15 langs), Indic DiarBench (meetings/far-field, 22 la
 - Region-specific data. [arXiv:2606.09345](https://arxiv.org/abs/2606.09345).
 - Factors affecting ASR performance. [arXiv:2606.09335](https://arxiv.org/abs/2606.09335).
 - Synthetic speech for ASR. [arXiv:2606.17662](https://arxiv.org/abs/2606.17662).
-- SraVaani 1.0. [arXiv:2608.08235](https://arxiv.org/abs/2608.08235).
+- NPTEL2020 (Indian English lecture speech). [Repo](https://github.com/AI4Bharat/NPTEL2020-Indian-English-Speech-Dataset).
+- Decoding the Diversity: A Review of the Indic AI Research Landscape. [arXiv:2406.09559](https://arxiv.org/abs/2406.09559).
 
 ---
 
