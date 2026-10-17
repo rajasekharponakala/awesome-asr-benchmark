@@ -1,0 +1,5 @@
+title: Awesome ASR Benchmark
+description: Curated list of ASR benchmarks with an Indic focus, plus a literature review of Indic speech recognition models.
+theme: jekyll-theme-minimal
+baseurl: "/awesome-asr-benchmark"
+url: "https://rajasekharponakala.github.io"
