@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Fetch arXiv metadata for a curated set of Indic ASR papers.
+"""Fetch metadata for a curated set of Indic ASR papers via OpenAlex.
 
 Writes docs/data/papers.json. Intended to run in GitHub Actions (compute).
 """
-import json, time, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import json, time, urllib.request, urllib.parse
 from pathlib import Path
 
 IDS = [
@@ -16,40 +16,32 @@ IDS = [
     "2606.09345", "2606.09335", "2606.17662", "2608.08235",
 ]
 
-NS = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
-
-def fetch_one(aid, retries=3):
-    url = "https://export.arxiv.org/api/query?id_list=" + aid
-    for attempt in range(retries):
-        try:
-            with urllib.request.urlopen(url, timeout=30) as r:
-                data = r.read().decode("utf-8")
-            if "Rate exceeded" in data:
-                time.sleep(10 * (attempt + 1))
-                continue
-            root = ET.fromstring(data)
-            entry = root.find("atom:entry", NS)
-            if entry is None:
-                return None
-            title = entry.findtext("atom:title", default="", namespaces=NS).strip().replace("\n", " ")
-            published = entry.findtext("atom:published", default="", namespaces=NS)
-            summary = entry.findtext("atom:summary", default="", namespaces=NS).strip().replace("\n", " ")
-            authors = [a.findtext("atom:name", default="", namespaces=NS) for a in entry.findall("atom:author", NS)]
-            return {"id": aid, "title": title, "published": published, "summary": summary[:400], "authors": authors}
-        except Exception as e:
-            time.sleep(5 * (attempt + 1))
-    return None
+def fetch_one(aid):
+    doi = "10.48550/arxiv." + aid
+    url = "https://api.openalex.org/works/doi:" + urllib.parse.quote(doi, safe="")
+    try:
+        with urllib.request.urlopen(url, timeout=30) as r:
+            d = json.load(r)
+    except Exception as e:
+        return {"id": aid, "error": str(e)}
+    authors = [a.get("author", {}).get("display_name") for a in d.get("authorships", [])]
+    return {
+        "id": aid,
+        "doi": d.get("doi"),
+        "title": d.get("title"),
+        "published": d.get("publication_date"),
+        "cited_by_count": d.get("cited_by_count"),
+        "authors": authors[:6],
+        "openalex": d.get("id"),
+    }
 
 def main():
     out = []
     for aid in IDS:
         rec = fetch_one(aid)
-        if rec:
-            out.append(rec)
-            print("OK", aid, rec["title"][:60])
-        else:
-            print("FAIL", aid)
-        time.sleep(5)
+        out.append(rec)
+        print("OK" if "title" in rec else "FAIL", aid, rec.get("title", rec.get("error", ""))[:60])
+        time.sleep(0.5)
     Path("docs/data").mkdir(parents=True, exist_ok=True)
     Path("docs/data/papers.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
     print("wrote", len(out), "records")
