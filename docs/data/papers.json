@@ -1,0 +1,433 @@
+[
+  {
+    "id": "2111.03945",
+    "doi": "https://doi.org/10.48550/arxiv.2111.03945",
+    "title": "Towards Building ASR Systems for the Next Billion Users",
+    "published": "2021-11-06",
+    "cited_by_count": 1,
+    "authors": [
+      "Tahir Javed",
+      "Sumanth Doddapaneni",
+      "Abhigyan Raman",
+      "Kaushal Santosh Bhogale",
+      "Ramesh, Gowtham",
+      "Anoop Kunchukuttan"
+    ],
+    "openalex": "https://openalex.org/W4225476724"
+  },
+  {
+    "id": "2104.00235",
+    "doi": "https://doi.org/10.21437/interspeech.2021-1339",
+    "title": "MUCS 2021: Multilingual and Code-Switching ASR Challenges for Low Resource Indian Languages",
+    "published": "2021-08-27",
+    "cited_by_count": 92,
+    "authors": [
+      "Anuj Diwan",
+      "Rakesh Vaideeswaran",
+      "Sanket B. Shah",
+      "Ankita Singh",
+      "Srinivasa Raghavan",
+      "Shreya Khare"
+    ],
+    "openalex": "https://openalex.org/W3147984406"
+  },
+  {
+    "id": "2106.01400",
+    "doi": "https://doi.org/10.21437/interspeech.2021-978",
+    "title": "Dual Script E2E Framework for Multilingual and Code-Switching ASR",
+    "published": "2021-08-27",
+    "cited_by_count": 12,
+    "authors": [
+      "Mari Ganesh Kumar",
+      "Jom Kuriakose",
+      "Anand Thyagachandran",
+      "Arun Kumar A",
+      "Ashish Seth",
+      "Lodagala V. S. V. Durga Prasad"
+    ],
+    "openalex": "https://openalex.org/W3167239202"
+  },
+  {
+    "id": "2107.07402",
+    "doi": "https://doi.org/10.48550/arxiv.2107.07402",
+    "title": "CLSRIL-23: Cross Lingual Speech Representations for Indic Languages",
+    "published": "2021-07-15",
+    "cited_by_count": 24,
+    "authors": [
+      "Anirudh Gupta",
+      "Harveen Singh Chadha",
+      "Priyanshi Shah",
+      "Chhimwal, Neeraj",
+      "Ankur Dhuriya",
+      "Rishabh Gaur"
+    ],
+    "openalex": "https://openalex.org/W3177999760"
+  },
+  {
+    "id": "2208.11761",
+    "doi": "https://doi.org/10.1609/aaai.v37i11.26521",
+    "title": "IndicSUPERB: A Speech Processing Universal Performance Benchmark for Indian Languages",
+    "published": "2023-06-26",
+    "cited_by_count": 26,
+    "authors": [
+      "Tahir Javed",
+      "Kaushal Santosh Bhogale",
+      "Abhigyan Raman",
+      "Pratyush Kumar",
+      "Anoop Kunchukuttan",
+      "Mitesh M. Khapra"
+    ],
+    "openalex": "https://openalex.org/W4382202628"
+  },
+  {
+    "id": "2208.12666",
+    "doi": "https://doi.org/10.1109/icassp49357.2023.10096933",
+    "title": "Effectiveness of Mining Audio and Text Pairs from Public Data for Improving ASR Systems for Low-Resource Languages",
+    "published": "2023-05-05",
+    "cited_by_count": 27,
+    "authors": [
+      "Kaushal Santosh Bhogale",
+      "Abhigyan Raman",
+      "Tahir Javed",
+      "Sumanth Doddapaneni",
+      "Anoop Kunchukuttan",
+      "Pratyush Kumar"
+    ],
+    "openalex": "https://openalex.org/W4372267440"
+  },
+  {
+    "id": "2212.04356",
+    "doi": "https://doi.org/10.48550/arxiv.2212.04356",
+    "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "published": "2022-12-06",
+    "cited_by_count": 1952,
+    "authors": [
+      "Alec Radford",
+      "Jong Wook Kim",
+      "Tao Xu",
+      "Greg Brockman",
+      "Christine McLeavey",
+      "Ilya Sutskever"
+    ],
+    "openalex": "https://openalex.org/W4311000453"
+  },
+  {
+    "id": "2303.01037",
+    "doi": "https://doi.org/10.48550/arxiv.2303.01037",
+    "title": "Google USM: Scaling Automatic Speech Recognition Beyond 100 Languages",
+    "published": "2023-03-02",
+    "cited_by_count": 110,
+    "authors": [
+      "Yu Zhang",
+      "Han, Wei",
+      "James Qin",
+      "Yongqiang Wang",
+      "Ankur Bapna",
+      "Zhehuai Chen"
+    ],
+    "openalex": "https://openalex.org/W4323066695"
+  },
+  {
+    "id": "2305.15386",
+    "doi": "https://doi.org/10.21437/interspeech.2023-2589",
+    "title": "Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "published": "2023-08-14",
+    "cited_by_count": 16,
+    "authors": [
+      "Kaushal Santosh Bhogale",
+      "Sai Sundaresan",
+      "Abhigyan Raman",
+      "Tahir Javed",
+      "Mitesh M. Khapra",
+      "Pratyush Kumar"
+    ],
+    "openalex": "https://openalex.org/W4385822810"
+  },
+  {
+    "id": "2305.15760",
+    "doi": "https://doi.org/10.21437/interspeech.2023-2588",
+    "title": "Svarah: Evaluating English ASR Systems on Indian Accents",
+    "published": "2023-08-14",
+    "cited_by_count": 14,
+    "authors": [
+      "Tahir Javed",
+      "Sakshi Joshi",
+      "Vignesh Nagarajan",
+      "Sai Sundaresan",
+      "Janki Atul Nawale",
+      "Abhigyan Raman"
+    ],
+    "openalex": "https://openalex.org/W4385822371"
+  },
+  {
+    "id": "2305.13516",
+    "doi": "https://doi.org/10.48550/arxiv.2305.13516",
+    "title": "Scaling Speech Technology to 1,000+ Languages",
+    "published": "2023-05-22",
+    "cited_by_count": 114,
+    "authors": [
+      "Vineel Pratap",
+      "Andros Tjandra",
+      "Shi, Bowen",
+      "Paden Tomasello",
+      "Babu, Arun",
+      "Sayani Kundu"
+    ],
+    "openalex": "https://openalex.org/W4378105483"
+  },
+  {
+    "id": "2308.11596",
+    "doi": "https://doi.org/10.48550/arxiv.2308.11596",
+    "title": "SeamlessM4T: Massively Multilingual & Multimodal Machine Translation",
+    "published": "2023-08-22",
+    "cited_by_count": 15,
+    "authors": [
+      "Seamless Communication",
+      "Loïc Barrault",
+      "Yu-An Chung",
+      "Mariano Coria Meglioli",
+      "David C. Dale",
+      "Dong, Ning"
+    ],
+    "openalex": "https://openalex.org/W4386142098"
+  },
+  {
+    "id": "2309.13876",
+    "doi": "https://doi.org/10.1109/asru57964.2023.10389676",
+    "title": "Reproducing Whisper-Style Training Using An Open-Source Toolkit And Publicly Available Data",
+    "published": "2023-12-16",
+    "cited_by_count": 39,
+    "authors": [
+      "Yifan Peng",
+      "Jinchuan Tian",
+      "Brian Yan",
+      "Dan Berrebbi",
+      "Xuankai Chang",
+      "Xinjian Li"
+    ],
+    "openalex": "https://openalex.org/W4391021675"
+  },
+  {
+    "id": "2403.01926",
+    "doi": "https://doi.org/10.48550/arxiv.2403.01926",
+    "title": "IndicVoices: Towards building an Inclusive Multilingual Speech Dataset for Indian Languages",
+    "published": "2024-03-04",
+    "cited_by_count": 1,
+    "authors": [
+      "Tahir Javed",
+      "Janki Atul Nawale",
+      "Eldho Ittan George",
+      "Sakshi Joshi",
+      "Kaushal Santosh Bhogale",
+      "Deovrat Mehendale"
+    ],
+    "openalex": "https://openalex.org/W4392488834"
+  },
+  {
+    "id": "2409.05356",
+    "doi": "https://doi.org/10.52202/079017-2176",
+    "title": "IndicVoices-R: Unlocking a Massive Multilingual Multi-speaker Speech Corpus for Scaling Indian TTS",
+    "published": "2024-01-01",
+    "cited_by_count": 5,
+    "authors": [
+      "Ashwin Sankar",
+      "Srija Anand",
+      "Praveen Srinivasa Varadhan",
+      "Sherry Thomas",
+      "Mehak Singal",
+      "Shridhar Kumar"
+    ],
+    "openalex": "https://openalex.org/W4415797171"
+  },
+  {
+    "id": "2408.11440",
+    "doi": "https://doi.org/10.21437/interspeech.2024-2376",
+    "title": "LAHAJA: A Robust Multi-accent Benchmark for Evaluating Hindi ASR Systems",
+    "published": "2024-09-01",
+    "cited_by_count": 4,
+    "authors": [
+      "Tahir Javed",
+      "Janki Atul Nawale",
+      "Sakshi Joshi",
+      "Eldho George",
+      "Kaushal Santosh Bhogale",
+      "Deovrat Mehendale"
+    ],
+    "openalex": "https://openalex.org/W4402111367"
+  },
+  {
+    "id": "2506.09653",
+    "doi": "https://doi.org/10.21437/interspeech.2025-2734",
+    "title": "Recognizing Every Voice: Towards Inclusive ASR for Rural Bhojpuri Women",
+    "published": "2025-08-17",
+    "cited_by_count": 1,
+    "authors": [
+      "Sakshi Joshi",
+      "Eldho Ittan George",
+      "Tahir Javed",
+      "Kaushal Santosh Bhogale",
+      "Nikhil Narasimhan",
+      "Mitesh M. Khapra"
+    ],
+    "openalex": "https://openalex.org/W4415432623"
+  },
+  {
+    "id": "2511.09690",
+    "doi": "https://doi.org/10.48550/arxiv.2511.09690",
+    "title": "Omnilingual ASR: Open-Source Multilingual Speech Recognition for 1600+ Languages",
+    "published": "2025-11-12",
+    "cited_by_count": 0,
+    "authors": [
+      "Omnilingual SONAR Team",
+      "Gil Keren",
+      "Artyom Kozhevnikov",
+      "Yen Meng",
+      "Christophe Ropers",
+      "Matthew Setzler"
+    ],
+    "openalex": "https://openalex.org/W4416240515"
+  },
+  {
+    "id": "2508.06280",
+    "doi": "https://doi.org/10.48550/arxiv.2508.06280",
+    "title": "A Study on Regularization-Based Continual Learning Methods for Indic ASR",
+    "published": "2025-08-08",
+    "cited_by_count": 0,
+    "authors": [
+      "Gokul Adethya T",
+      "S. Jaya Nirmala"
+    ],
+    "openalex": "https://openalex.org/W4415193838"
+  },
+  {
+    "id": "2604.19151",
+    "doi": "https://doi.org/10.48550/arxiv.2604.19151",
+    "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
+    "published": "2026-04-21",
+    "cited_by_count": 0,
+    "authors": [
+      "Kaushal Santosh Bhogale",
+      "Manas Dhir",
+      "Amritansh Walecha",
+      "Manmeet Kaur",
+      "Vanshika Chhabra",
+      "Aaditya Pareek"
+    ],
+    "openalex": "https://openalex.org/W7155210110"
+  },
+  {
+    "id": "2607.23808",
+    "doi": "https://doi.org/10.48550/arxiv.2607.23808",
+    "title": "Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages",
+    "published": "2026-07-26",
+    "cited_by_count": 0,
+    "authors": [
+      "Deovrat Mehendale",
+      "Aditya Mehndiratta",
+      "Dhruv Rathi",
+      "Kaushal Santosh Bhogale",
+      "Mitesh M. Khapra"
+    ],
+    "openalex": "https://openalex.org/W7171559464"
+  },
+  {
+    "id": "2605.20712",
+    "doi": "https://doi.org/10.48550/arxiv.2605.20712",
+    "title": "SCRIBE: Diagnostic Evaluation and Rich Transcription Models for Indic ASR",
+    "published": "2026-05-20",
+    "cited_by_count": 0,
+    "authors": [
+      "Kavya Manohar",
+      "Arghya Bhattacharya",
+      "Kush Juvekar",
+      "Kumarmanas Nethil"
+    ],
+    "openalex": "https://openalex.org/W7162001829"
+  },
+  {
+    "id": "2605.03073",
+    "doi": "https://doi.org/10.48550/arxiv.2605.03073",
+    "title": "The TTS-STT Flywheel: Synthetic Entity-Dense Audio Closes the Indic ASR Gap Where Commercial and Open-Source Systems Fail",
+    "published": "2026-05-04",
+    "cited_by_count": 0,
+    "authors": [
+      "Venkata Pushpak Teja Menta"
+    ],
+    "openalex": "https://openalex.org/W7160443193"
+  },
+  {
+    "id": "2606.02548",
+    "doi": "https://doi.org/10.48550/arxiv.2606.02548",
+    "title": "SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation",
+    "published": "2026-06-01",
+    "cited_by_count": 0,
+    "authors": [
+      "Priyaranjan Pattnayak"
+    ],
+    "openalex": "https://openalex.org/W7163124876"
+  },
+  {
+    "id": "2606.09345",
+    "doi": "https://doi.org/10.48550/arxiv.2606.09345",
+    "title": "A study on the impact of region specific data on the performance of Indic ASR",
+    "published": "2026-06-08",
+    "cited_by_count": 0,
+    "authors": [
+      "Agneedh Basu",
+      "Pavan Kumar J",
+      "Pranav Bhat",
+      "Sujith Pulikodan",
+      "Visruth Sanka",
+      "Nihar Desai"
+    ],
+    "openalex": "https://openalex.org/W7164043062"
+  },
+  {
+    "id": "2606.09335",
+    "doi": "https://doi.org/10.48550/arxiv.2606.09335",
+    "title": "Factors affecting ASR performance: A study using state of the art ASR models in Indic Languages",
+    "published": "2026-06-08",
+    "cited_by_count": 0,
+    "authors": [
+      "Agneedh Basu",
+      "Pavan Kumar J",
+      "Pranav Bhat",
+      "Sujith Pulikodan",
+      "Visruth Sanka",
+      "Nihar Desai"
+    ],
+    "openalex": "https://openalex.org/W7164048161"
+  },
+  {
+    "id": "2606.17662",
+    "doi": "https://doi.org/10.48550/arxiv.2606.17662",
+    "title": "An Analysis of the Effectiveness of Synthetic Speech Data for ASR Fine-tuning in Selected Indic Languages",
+    "published": "2026-06-16",
+    "cited_by_count": 0,
+    "authors": [
+      "Sujith Pulikodan",
+      "Agneedh Basu",
+      "Pavan Kumar",
+      "Pranav Bhat",
+      "Visruth Sanka",
+      "Nihar Desai"
+    ],
+    "openalex": "https://openalex.org/W7165035102"
+  },
+  {
+    "id": "2608.08235",
+    "doi": "https://doi.org/10.48550/arxiv.2608.08235",
+    "title": "SraVaani 1.0: Scaling Inclusive Speech Recognition for Indic Languages",
+    "published": "2026-08-08",
+    "cited_by_count": 0,
+    "authors": [
+      "Sujith Pulikodan",
+      "Agneedh Basu",
+      "Pavan Kumar J",
+      "Pranav Bhat",
+      "Suryansh Shukla",
+      "Nihar Desai"
+    ],
+    "openalex": "https://openalex.org/W7202173891"
+  }
+]
