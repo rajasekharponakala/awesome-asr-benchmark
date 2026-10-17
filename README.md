@@ -6,6 +6,8 @@ India has 22 scheduled languages, hundreds of dialects, heavy code-mixing with E
 
 _Last updated: October 2026._
 
+**Live site:** https://rajasekharponakala.github.io/awesome-asr-benchmark/ (includes a [literature review of Indic ASR models](https://rajasekharponakala.github.io/awesome-asr-benchmark/literature-review.html)).
+
 ---
 
 ## Contents
