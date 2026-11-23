@@ -4,7 +4,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2111.03945",
     "title": "Towards Building ASR Systems for the Next Billion Users",
     "published": "2021-11-06",
-    "cited_by_count": 13,
+    "cited_by_count": 18,
     "authors": [
       "Tahir Javed",
       "Sumanth Doddapaneni",
@@ -19,8 +19,8 @@
     "id": "2104.00235",
     "doi": "https://doi.org/10.21437/interspeech.2021-1339",
     "title": "MUCS 2021: Multilingual and Code-Switching ASR Challenges for Low Resource Indian Languages",
-    "published": "2021-08-27",
-    "cited_by_count": 131,
+    "published": "2021-08-30",
+    "cited_by_count": 178,
     "authors": [
       "Anuj Diwan",
       "Rakesh Vaideeswaran",
@@ -35,8 +35,8 @@
     "id": "2106.01400",
     "doi": "https://doi.org/10.21437/interspeech.2021-978",
     "title": "Dual Script E2E Framework for Multilingual and Code-Switching ASR",
-    "published": "2021-08-27",
-    "cited_by_count": 14,
+    "published": "2021-08-30",
+    "cited_by_count": 16,
     "authors": [
       "Mari Ganesh Kumar",
       "Jom Kuriakose",
@@ -52,7 +52,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2107.07402",
     "title": "CLSRIL-23: Cross Lingual Speech Representations for Indic Languages",
     "published": "2021-07-15",
-    "cited_by_count": 43,
+    "cited_by_count": 59,
     "authors": [
       "Anirudh Gupta",
       "Harveen Singh Chadha",
@@ -68,7 +68,7 @@
     "doi": "https://doi.org/10.1609/aaai.v37i11.26521",
     "title": "IndicSUPERB: A Speech Processing Universal Performance Benchmark for Indian Languages",
     "published": "2023-06-26",
-    "cited_by_count": 51,
+    "cited_by_count": 112,
     "authors": [
       "Tahir Javed",
       "Kaushal Santosh Bhogale",
@@ -84,7 +84,7 @@
     "doi": "https://doi.org/10.1109/icassp49357.2023.10096933",
     "title": "Effectiveness of Mining Audio and Text Pairs from Public Data for Improving ASR Systems for Low-Resource Languages",
     "published": "2023-05-05",
-    "cited_by_count": 43,
+    "cited_by_count": 75,
     "authors": [
       "Kaushal Santosh Bhogale",
       "Abhigyan Raman",
@@ -99,8 +99,8 @@
     "id": "2212.04356",
     "doi": "https://doi.org/10.48550/arxiv.2212.04356",
     "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
-    "published": "2022-12-06",
-    "cited_by_count": 3727,
+    "published": "2023-07-03",
+    "cited_by_count": 5898,
     "authors": [
       "Alec Radford",
       "Jong Wook Kim",
@@ -116,12 +116,12 @@
     "doi": "https://doi.org/10.48550/arxiv.2303.01037",
     "title": "Google USM: Scaling Automatic Speech Recognition Beyond 100 Languages",
     "published": "2023-03-02",
-    "cited_by_count": 423,
+    "cited_by_count": 526,
     "authors": [
       "Yu Zhang",
       "Han, Wei",
       "James Qin",
-      "Yongqiang Wang",
+      "Y.-Q. Wang",
       "Ankur Bapna",
       "Zhehuai Chen"
     ],
@@ -131,8 +131,8 @@
     "id": "2305.15386",
     "doi": "https://doi.org/10.21437/interspeech.2023-2589",
     "title": "Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR",
-    "published": "2023-08-14",
-    "cited_by_count": 38,
+    "published": "2023-08-20",
+    "cited_by_count": 66,
     "authors": [
       "Kaushal Santosh Bhogale",
       "Sai Sundaresan",
@@ -147,8 +147,8 @@
     "id": "2305.15760",
     "doi": "https://doi.org/10.21437/interspeech.2023-2588",
     "title": "Svarah: Evaluating English ASR Systems on Indian Accents",
-    "published": "2023-08-14",
-    "cited_by_count": 27,
+    "published": "2023-08-20",
+    "cited_by_count": 42,
     "authors": [
       "Tahir Javed",
       "Sakshi Joshi",
@@ -164,7 +164,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2305.13516",
     "title": "Scaling Speech Technology to 1,000+ Languages",
     "published": "2023-05-22",
-    "cited_by_count": 346,
+    "cited_by_count": 687,
     "authors": [
       "Vineel Pratap",
       "Andros Tjandra",
@@ -180,7 +180,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2308.11596",
     "title": "SeamlessM4T: Massively Multilingual & Multimodal Machine Translation",
     "published": "2023-08-22",
-    "cited_by_count": 392,
+    "cited_by_count": 486,
     "authors": [
       "Seamless Communication",
       "Loïc Barrault",
@@ -196,7 +196,7 @@
     "doi": "https://doi.org/10.1109/asru57964.2023.10389676",
     "title": "Reproducing Whisper-Style Training Using An Open-Source Toolkit And Publicly Available Data",
     "published": "2023-12-16",
-    "cited_by_count": 55,
+    "cited_by_count": 138,
     "authors": [
       "Yifan Peng",
       "Jinchuan Tian",
@@ -212,7 +212,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2403.01926",
     "title": "IndicVoices: Towards building an Inclusive Multilingual Speech Dataset for Indian Languages",
     "published": "2024-03-04",
-    "cited_by_count": 34,
+    "cited_by_count": 51,
     "authors": [
       "Tahir Javed",
       "Janki Atul Nawale",
@@ -228,7 +228,7 @@
     "doi": "https://doi.org/10.52202/079017-2176",
     "title": "IndicVoices-R: Unlocking a Massive Multilingual Multi-speaker Speech Corpus for Scaling Indian TTS",
     "published": "2024-01-01",
-    "cited_by_count": 12,
+    "cited_by_count": 36,
     "authors": [
       "Ashwin Sankar",
       "Srija Anand",
@@ -244,7 +244,7 @@
     "doi": "https://doi.org/10.21437/interspeech.2024-2376",
     "title": "LAHAJA: A Robust Multi-accent Benchmark for Evaluating Hindi ASR Systems",
     "published": "2024-09-01",
-    "cited_by_count": 10,
+    "cited_by_count": 23,
     "authors": [
       "Tahir Javed",
       "Janki Atul Nawale",
@@ -260,7 +260,7 @@
     "doi": "https://doi.org/10.21437/interspeech.2025-2734",
     "title": "Recognizing Every Voice: Towards Inclusive ASR for Rural Bhojpuri Women",
     "published": "2025-08-17",
-    "cited_by_count": 5,
+    "cited_by_count": 9,
     "authors": [
       "Sakshi Joshi",
       "Eldho Ittan George",
@@ -276,7 +276,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2511.09690",
     "title": "Omnilingual ASR: Open-Source Multilingual Speech Recognition for 1600+ Languages",
     "published": "2025-11-12",
-    "cited_by_count": 95,
+    "cited_by_count": 121,
     "authors": [
       "Omnilingual SONAR Team",
       "Gil Keren",
@@ -304,7 +304,7 @@
     "doi": "https://doi.org/10.21437/interspeech.2026-3189",
     "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
     "published": "2026-09-27",
-    "cited_by_count": 3,
+    "cited_by_count": 4,
     "authors": [
       "Kaushal Santosh Bhogale",
       "Manas Dhir",
@@ -320,7 +320,7 @@
     "doi": "https://doi.org/10.21437/interspeech.2026-2484",
     "title": "Indic DiarBench: A Multilingual Joint Diarization and ASR Benchmark for Indian Languages",
     "published": "2026-09-27",
-    "cited_by_count": 2,
+    "cited_by_count": 3,
     "authors": [
       "Deovrat Mehendale",
       "Aditya Mehndiratta",
@@ -349,7 +349,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2605.03073",
     "title": "The TTS-STT Flywheel: Synthetic Entity-Dense Audio Closes the Indic ASR Gap Where Commercial and Open-Source Systems Fail",
     "published": "2026-05-04",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "authors": [
       "Venkata Pushpak Teja Menta"
     ],
@@ -360,7 +360,7 @@
     "doi": "https://doi.org/10.18653/v1/2026.mellm-1.24",
     "title": "SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation",
     "published": "2026-01-01",
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "authors": [
       "Priyaranjan Pattnayak"
     ],
